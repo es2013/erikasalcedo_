@@ -1,7 +1,7 @@
 import React from 'react';
 import coverImage from "../../assets/img/es2020-2.jpg";
 
-//import react
+//import bootstrap for react
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';

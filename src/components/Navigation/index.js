@@ -1,40 +1,46 @@
 import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import { Link } from "react-router-dom";
+
 
  //initialize the section state
- function Nav(props) {
-  const tabs = ['Home', 'Projects','Skills', 'Contact'];
+ function Navigation(props) {
+  const tabs = ['About', 'Projects','Skills', 'Contact'];
 
-    const {
-      sections = [],
-      setCurrentSection,
-      currentSection,
-      contactSelected,
-      setContactSelected
-    } = props;
-  
     return (
-        <nav className='navbar'>
-            <h1 className='name'>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+            <h1 className='name nav-brand'>
                 erika.is()
             </h1>
-            <ul className="nav nav-tabs">
-      {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
-          <a
-            href={'#' + tab.toLowerCase()}
-            onClick={() => props.handlePageChange(tab)}
-            className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
-            }
-          >
-            {tab}
-          </a>
-        </li>
-      ))}
-    </ul>
+         
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <Link class="nav-link active" to="/home">
+                Home
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link active" to="/projects">
+                Projects
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link active" to="/skills">
+                Skills
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link active" to="/contact">
+                Contact
+              </Link>
+            </li>
+            
+          </ul>
+        </div>
+        </div>
         </nav>
     );
 };
 
-export default Nav;
+export default Navigation;

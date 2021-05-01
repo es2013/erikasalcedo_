@@ -40,8 +40,20 @@
 }
  span a{
   color: #b40086;
-  font-weight:400;
 }
+footer {
+  background-color:#f2f2f2;
+  padding-bottom:30px;
+
+}
+footer p {
+  padding-top:20px;
+}
+footer i {
+  padding-top:20px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
