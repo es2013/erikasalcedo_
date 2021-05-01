@@ -1,15 +1,16 @@
 import React from 'react';
 import coverImage from "../../assets/img/es2020-2.jpg";
+import ReactRoundedImage from "react-rounded-image";
+
 
 //import bootstrap for react
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import ReactRoundedImage from "react-rounded-image";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
-function About() {
+function Header() {
   return (
     <section className="my-5">
     <Jumbotron fluid className="mb-0">
@@ -43,4 +44,4 @@ function About() {
   );
 }
 
-export default About;
+export default Header;
