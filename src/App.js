@@ -28,7 +28,6 @@ function App() {
          {/* <Route path="/projects" component={Project}/> */}
          <Route path="/" component={Home}/>
       </main>
-      <ContactForm/>
       <Footer />
     </div>
     </Router>
