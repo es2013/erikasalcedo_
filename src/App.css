@@ -6,7 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.jumbotron {
+  background-image: url('../src/assets/img/hero.jpeg');
+  color: #ffffff;
+}
+.jumbotron .col {
+  margin: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
