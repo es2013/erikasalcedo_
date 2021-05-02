@@ -5,7 +5,6 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-
 function ContactForm() {
     //Hook that'll manage the form data--feature of this Hook is the ability to initialize the values of the state
     const [errorMessage, setErrorMessage] = useState('');

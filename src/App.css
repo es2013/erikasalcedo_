@@ -16,6 +16,13 @@
   margin: auto;
   
 }
+.container p{
+  padding-bottom:15px;
+}
+.container .card{
+  padding-bottom:15px;
+}
+
 .nav-tabs .nav-link {
   color:#b40086;
 }

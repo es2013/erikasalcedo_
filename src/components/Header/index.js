@@ -36,9 +36,7 @@ function Header() {
         </Jumbotron>
         <Container class="shadow mb-5 bg-light">
           <h2>A little bit about me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          
-
+          <p>If you were to ask me which animal/insect best represents me, I would say a spider because I am a web developer that enjoys catching bugs. (Okay maybe not when there is a time sensitive project because bugs can drive me crazy) but I do enjoy troubleshooting. I am a full stack developer based out of California with past experience in marketing automation and data analysis. </p>
         </Container>
     </section>
   );
