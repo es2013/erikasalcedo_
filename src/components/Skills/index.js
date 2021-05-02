@@ -62,7 +62,7 @@ function Skills() {
                       <li>marketing automation</li>
                       <li>Marketo Certification</li>
                       <li>UCLA FrontEnd Developer - Certificate of Completion**</li>
-                      <li>Digital Marketing<br/></li>
+                      <li>Digital Marketing - Google Certificate<br/></li>
                       
                 </ul>
               </Card.Body>
