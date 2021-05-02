@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/erikasalcedo_/static/css/main.82127028.chunk.css",
+    "main.js": "/erikasalcedo_/static/js/main.56eb26d1.chunk.js",
+    "main.js.map": "/erikasalcedo_/static/js/main.56eb26d1.chunk.js.map",
+    "runtime-main.js": "/erikasalcedo_/static/js/runtime-main.f7741dc2.js",
+    "runtime-main.js.map": "/erikasalcedo_/static/js/runtime-main.f7741dc2.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/erikasalcedo_/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.1360646f.chunk.js": "/erikasalcedo_/static/js/2.1360646f.chunk.js",
+    "static/js/2.1360646f.chunk.js.map": "/erikasalcedo_/static/js/2.1360646f.chunk.js.map",
+    "static/js/3.fa5c4b28.chunk.js": "/erikasalcedo_/static/js/3.fa5c4b28.chunk.js",
+    "static/js/3.fa5c4b28.chunk.js.map": "/erikasalcedo_/static/js/3.fa5c4b28.chunk.js.map",
+    "index.html": "/erikasalcedo_/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/erikasalcedo_/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.82127028.chunk.css.map": "/erikasalcedo_/static/css/main.82127028.chunk.css.map",
+    "static/js/2.1360646f.chunk.js.LICENSE.txt": "/erikasalcedo_/static/js/2.1360646f.chunk.js.LICENSE.txt",
+    "static/media/entertainment-img.6dae70bc.png": "/erikasalcedo_/static/media/entertainment-img.6dae70bc.png",
+    "static/media/es2020-2.6ddf73b2.jpg": "/erikasalcedo_/static/media/es2020-2.6ddf73b2.jpg",
+    "static/media/faceblog-img.07e87ad9.png": "/erikasalcedo_/static/media/faceblog-img.07e87ad9.png",
+    "static/media/happy-tail-img.d3abe2ee.png": "/erikasalcedo_/static/media/happy-tail-img.d3abe2ee.png",
+    "static/media/App.css": "/erikasalcedo_/static/media/hero.b6f81455.jpeg",
+    "static/media/jotitdown-img.c9b789f5.png": "/erikasalcedo_/static/media/jotitdown-img.c9b789f5.png",
+    "static/media/pennysaver-img.40dacf18.png": "/erikasalcedo_/static/media/pennysaver-img.40dacf18.png",
+    "static/media/photoport-img.6beb784b.png": "/erikasalcedo_/static/media/photoport-img.6beb784b.png",
+    "static/media/pizza-img.34148601.png": "/erikasalcedo_/static/media/pizza-img.34148601.png",
+    "static/media/readme-img.05112bae.png": "/erikasalcedo_/static/media/readme-img.05112bae.png",
+    "static/media/runbuddy-img.51615e76.png": "/erikasalcedo_/static/media/runbuddy-img.51615e76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7741dc2.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.1360646f.chunk.js",
+    "static/css/main.82127028.chunk.css",
+    "static/js/main.56eb26d1.chunk.js"
+  ]
+}
