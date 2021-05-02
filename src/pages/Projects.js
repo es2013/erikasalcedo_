@@ -1,6 +1,12 @@
 import React from 'react';
 import Project from '../components/Project';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import './stylesheet.css'
+
+
 //project images
 import happyTailsApp from '../assets/img/happy-tail-img.png';
 import faceblogApp from '../assets/img/faceblog-img.png';
@@ -9,25 +15,11 @@ import pizzaApp from '../assets/img/pizza-img.png';
 import jotitdownApp from '../assets/img/jotitdown-img.png';
 import readmeApp from '../assets/img/readme-img.png';
 import entertainmentApp from '../assets/img/entertainment-img.png';
-
-
-
-
-
-
-
-
+import photoportApp from '../assets/img/photoport-img.png';
+import runbuddyApp from '../assets/img/runbuddy-img.png';
 
 function Projects() {
     const projects = [
-        {
-          "title": "project 1",
-          "desc": "this is a test",
-          "key": "test",
-          "imageSrc": 'image1',
-          "repository": "www.google.com",
-          "appURL": "www.google.com"
-        },
         {
           "title": "Happy Tails",
           "desc": "app for tracking which shelter dogs have been taken out or walked",
@@ -83,19 +75,47 @@ function Projects() {
           "imageSrc": entertainmentApp,
           "repository": "https://github.com/es2013/entertainment-roulette",
           "appURL": "https://es2013.github.io/entertainment-roulette/"
+        },
+        {
+          "title": "Photo Port",
+          "desc": "Photo gallery built with react",
+          "key": "photoport",
+          "imageSrc": photoportApp,
+          "repository": "https://github.com/es2013/photo-port",
+          "appURL": "https://es2013.github.io/photo-port/"
+        },
+        {
+          "title": "Run Buddy",
+          "desc": "Website that offers fitness training services",
+          "key": "runbuddy",
+          "imageSrc": runbuddyApp,
+          "repository": "https://github.com/es2013/02-run-buddy-run",
+          "appURL": "https://es2013.github.io/02-run-buddy-run/"
         }
+
     ]
         return(
-            <div>
-                <h1>My Projects</h1>
+          <div>
+       <Jumbotron fluid className="shadow p-5 mb-5">
+        <Container className="text-center">
+          <div className="p-md-5">
+            <h1>My Projects</h1>
+          </div>
+        </Container>
+      </Jumbotron>
+       
+      <Container className="p-4">
+        <Row>
                 {projects.map((project) => {
             return(
               <Col s={12} lg={6} key={project.key}>
-                <Project project={project} />
+                <Project className="shadow" project={project} />
               </Col>
             )
           })}
-            </div>
+        </Row>
+        </Container>
+          </div>
         )
 }
 export default Projects;

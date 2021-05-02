@@ -1,5 +1,9 @@
 import React from 'react';
-import './stylesheet.css'
+import './stylesheet.css';
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 
 //import bootstrap for easy style
 import Card from 'react-bootstrap/Card';
@@ -7,13 +11,13 @@ import Card from 'react-bootstrap/Card';
 function Project({ project }) {
   return (
     <Card className="m-lg-4 m-2 d-flex justify-content-center">
-        <Card.Body>
+        <Card.Body className="bg-dark text-white">
           <Card.Title className="d-flex justify-content-between align-items-center">
             <a href={project.appURL} target="_blank" rel="noopener noreferrer">
               <h4>{project.title}</h4>
             </a>
             <a href={project.repository} target="_blank" rel="noopener noreferrer">
-              <span><i className="fa-github"></i></span>
+              <span><i className="fa fa-github"></i></span>
             </a>
           </Card.Title>
           <Card.Subtitle>
