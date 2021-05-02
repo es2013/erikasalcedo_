@@ -21,8 +21,8 @@ function Header() {
               <ReactRoundedImage
                 image={coverImage}
                 roundedColor="#b40086"
-                imageWidth="400"
-                imageHeight="310"/>
+                imageWidth="350"
+                imageHeight="280"/>
             </Col>
             <Col className="pl-md-5">
                 <h1 className="display-4 text-center text-lg-left text-light p-0-lg pt-4">
