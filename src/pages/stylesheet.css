@@ -3,7 +3,8 @@ a {
 }
 
 .card-body{
-    border-radius: 10px;;
+    border-radius: 10px;
+    border:dashed 1px #b40086;
 
 }
 .card-title{

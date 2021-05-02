@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 
 function ContactForm() {
     //Hook that'll manage the form data--feature of this Hook is the ability to initialize the values of the state
@@ -34,22 +39,34 @@ function ContactForm() {
   
   console.log(formState);
   return (
-    <section className='contact-me-section'>
-    <h1>Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+    <div>
+    <Jumbotron fluid className="shadow p-5 mb-5">
+    <Container className="text-center">
+      <div className="p-md-5">
+        <h1>Contact Me</h1>
+        
+      </div>
+    </Container>
+    <Container className="text-center">
+
+    <form id="contact-form" onSubmit={handleSubmit}>
         {/* name input */}
+        <Row>
+        <Col>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Name: </label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
         </div>
+        
         {/* email input  */}
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email: </label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
         </div>
+        </Col>
         {/* message text area */}
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Message: </label>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
             {/* the below is the same as if(errorMessage) */}
             {errorMessage && (
@@ -58,9 +75,14 @@ function ContactForm() {
                 </div>
             )}
         </div>
+        </Row>
         <button type="submit">Submit</button>
+        
       </form>
-    </section>
+
+    </Container>
+  </Jumbotron>
+    </div>
   );
 }
 

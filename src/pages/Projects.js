@@ -22,7 +22,7 @@ function Projects() {
     const projects = [
         {
           "title": "Happy Tails",
-          "desc": "app for tracking which shelter dogs have been taken out or walked",
+          "desc": "App designed for shelters and volunteers for tracking which shelter dogs have been taken out or walked and what their demeanor level is",
           "key": "happy-tails",
           "imageSrc":happyTailsApp,
           "repository": "https://github.com/es2013/happy-tails",
@@ -46,7 +46,7 @@ function Projects() {
         },
         {
           "title": "Pizza Hunt",
-          "desc": "App that lets you build your own pizza and save it",
+          "desc": "App that lets you build your own pizza and save it for future reference. incorporates NoSQL",
           "key": "pizza-hunt",
           "imageSrc": pizzaApp,
           "repository": "https://github.com/es2013/pizza-hunt",
@@ -54,7 +54,7 @@ function Projects() {
         },
         {
           "title": "Jot It Down",
-          "desc": "Add and save notes to help you get on track",
+          "desc": "Note taking app that lets you save notes and keep track of tasks you might need to work on",
           "key": "jot-it-down",
           "imageSrc": jotitdownApp,
           "repository": "https://github.com/es2013/jot-it-down",
@@ -99,17 +99,18 @@ function Projects() {
        <Jumbotron fluid className="shadow p-5 mb-5">
         <Container className="text-center">
           <div className="p-md-5">
-            <h1>My Projects</h1>
+            <h1>Projects </h1>
+            <h2>Deployed URL and Repositories </h2>
           </div>
         </Container>
       </Jumbotron>
        
-      <Container className="p-4">
+      <Container className="p-2 shadow">
         <Row>
                 {projects.map((project) => {
             return(
               <Col s={12} lg={6} key={project.key}>
-                <Project className="shadow" project={project} />
+                <Project project={project} />
               </Col>
             )
           })}
